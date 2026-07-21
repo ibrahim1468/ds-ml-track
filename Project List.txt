@@ -10,7 +10,7 @@ Solving a linear system (np.linalg.solve) — engineering context
 NumPy performance project — vectorize a slow simulation
 
 
-Stage 2 — Pandas & Data Wrangling (P9–P17)
+Stage 2 — Pandas & Data Wrangling (P9–P16)
 
 Series/DataFrame fundamentals on a real dataset
 Filtering, sorting, groupby on a sales dataset
@@ -20,10 +20,9 @@ Outlier detection & treatment
 Derived columns, apply/lambda, vectorized string ops
 Reshaping — pivot, melt, multi-index
 Time-indexed data basics (resampling, rolling windows)
-End-to-end wrangling project — raw messy dataset → analysis-ready (merged with p26)
 
 
-Stage 3 — EDA & Visualization (P18–P26)
+Stage 3 — EDA & Visualization (P17–P25)
 
 Univariate EDA — distributions, summary stats
 Bivariate EDA — correlation, groupwise comparison
@@ -36,7 +35,7 @@ Dashboard prototype (Streamlit) for an EDA report
 Full EDA capstone — pick a messy real dataset, deliver findings
 
 
-Stage 4 — Statistics & Probability for ML (P27–P35)
+Stage 4 — Statistics & Probability for ML (P26–P34)
 
 Descriptive stats deep dive — mean/variance/skew, when they lie
 Probability distributions — simulate & fit
@@ -49,7 +48,7 @@ A/B testing simulation
 Statistics capstone — design + run a full hypothesis-testing study
 
 
-Stage 5 — Preprocessing & Feature Engineering (P36–P44)
+Stage 5 — Preprocessing & Feature Engineering (P35–P43)
 
 Encoding categorical variables (one-hot, ordinal, target)
 Scaling & normalization — when each matters
@@ -62,7 +61,7 @@ Train/val/test split strategies, cross-validation setups
 Preprocessing capstone — full pipeline on a messy dataset
 
 
-Stage 6 — Classical ML Regression (P45–P52)
+Stage 6 — Classical ML Regression (P44–P51)
 
 Linear regression from scratch (gradient descent)
 Linear regression with sklearn — diagnostics & residuals
@@ -74,7 +73,7 @@ Model diagnostics — heteroscedasticity, multicollinearity
 Regression capstone — end-to-end with reporting
 
 
-Stage 7 — Classical ML Classification (P53–P61)
+Stage 7 — Classical ML Classification (P52–P60)
 
 Logistic regression from scratch
 Logistic regression with sklearn — decision boundaries
@@ -87,7 +86,7 @@ Classification project — imbalanced real-world dataset
 Classification capstone — full pipeline + error analysis
 
 
-Stage 8 — Evaluation, Tuning, Pipelines (P62–P68)
+Stage 8 — Evaluation, Tuning, Pipelines (P61–P67)
 
 Evaluation metrics deep dive (precision/recall/F1/ROC-AUC) — when each lies
 Cross-validation strategies (k-fold, stratified, time-series split)
@@ -98,7 +97,7 @@ Model comparison framework — multiple models, one dataset
 Evaluation capstone — rigorous model selection report
 
 
-Stage 9 — Ensembles & Explainability (P69–P74)
+Stage 9 — Ensembles & Explainability (P68–P73)
 
 Bagging & Random Forests
 Boosting — AdaBoost intuition
@@ -108,7 +107,7 @@ Explainable AI — SHAP & feature importance
 Ensemble capstone — stacked model with explainability report
 
 
-Stage 10 — Unsupervised Learning (P75–P79)
+Stage 10 — Unsupervised Learning (P74–P78)
 
 K-Means clustering — choosing k
 Hierarchical clustering & dendrograms
@@ -117,7 +116,7 @@ Dimensionality reduction — PCA intuition + implementation
 Clustering capstone — customer data segmentation project
 
 
-Stage 11 — Time Series (P80–P85)
+Stage 11 — Time Series (P79–P84)
 
 Time series decomposition (trend/seasonality/residual)
 Stationarity & differencing
@@ -127,7 +126,7 @@ Prophet or seasonal ML model comparison
 Time series capstone — real forecasting problem
 
 
-Stage 12 — NLP (P86–P92)
+Stage 12 — NLP (P85–P91)
 
 Text preprocessing — tokenization, stopwords, stemming/lemmatization
 Bag-of-Words & TF-IDF from scratch
@@ -138,7 +137,7 @@ Sentiment analysis on real-world messy text
 NLP capstone — end-to-end text classification system
 
 
-Stage 13 — Deep Learning Foundations (P93–P100)
+Stage 13 — Deep Learning Foundations (P92–P99)
 
 Neural network from scratch (single neuron, forward pass)
 Backpropagation by hand + implementation
@@ -150,7 +149,7 @@ Training loop debugging project (deliberately broken model)
 Deep learning capstone — tabular deep learning vs classical ML
 
 
-Stage 14 — Computer Vision (P101–P106)
+Stage 14 — Computer Vision (P100–P105)
 
 Image basics — pixels, channels, preprocessing
 CNN from scratch (small scale) — convolution intuition
@@ -160,14 +159,14 @@ Data augmentation & regularization for vision
 CV capstone — image classification system
 
 
-Stage 15 — Recommendation Systems (P107–P109)
+Stage 15 — Recommendation Systems (P106–P108)
 
 Collaborative filtering from scratch
 Content-based recommender project
 Hybrid recommender capstone
 
 
-Stage 16 — MLOps, APIs, Deployment (P110–P118)
+Stage 16 — MLOps, APIs, Deployment (P109–P117)
 
 Wrapping a model in a FastAPI service
 Dockerizing an ML API
@@ -180,7 +179,7 @@ Cloud deployment (basic)
 MLOps capstone — fully deployed, monitored service
 
 
-Stage 17 — Production-Grade Capstones (P119–P124)
+Stage 17 — Production-Grade Capstones (P118–P123)
 
 Multi-model comparison system with full reporting
 Scalable ML architecture design exercise
