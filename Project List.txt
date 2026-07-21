@@ -1,341 +1,190 @@
-## Stage 0 — Python & Engineering Discipline (P1–P6)
-1. Environment setup, venv, project structure, git init
-2. Clean function design + docstrings on a unit-conversion toolkit
-3. File IO readwrite CSV, JSON, handle malformed input
-4. Error handling & logging on a small CLI tool
-5. Writing your first unit tests (pytest)
-6. Refactor a messy script into modules (code smell audit)
+Stage 1 — NumPy Foundations (P1–P8)
 
-## Stage 1 — NumPy Foundations (P7–P13)
-7. Vectorization vs loops timing benchmark
-8. Array creation, indexing, broadcasting drills
-9. Linear algebra basics dot products, matrix ops on a physics dataset
-10. Random sampling & simulation dicecoin Monte Carlo
-11. Numerical differentiationintegration mini-tool
-12. Solving a linear system (np.linalg.solve) — engineering context
-13. NumPy performance project vectorize a slow simulation
+Setting everything up
+Vectorization vs loops timing benchmark
+Array creation, indexing, broadcasting drills
+Linear algebra basics — dot products, matrix ops on a physics dataset
+Random sampling & simulation — dice/coin Monte Carlo
+Numerical differentiation/integration mini-tool
+Solving a linear system (np.linalg.solve) — engineering context
+NumPy performance project — vectorize a slow simulation
 
-## Stage 2 — Pandas & Data Wrangling (P14–P22)
-14. SeriesDataFrame fundamentals on real dataset
-15. Filtering, sorting, groupby on a sales dataset
-16. Mergejoin across multiple tables
-17. Handling missing data — strategies compared
-18. Outlier detection & treatment
-19. Derived columns, applylambda, vectorized string ops
-20. Reshaping pivot, melt, multi-index
-21. Time-indexed data basics (resampling, rolling windows)
-22. End-to-end wrangling project raw messy dataset → analysis-ready
 
-## Stage 3 — EDA & Visualization (P23–P30)
-23. Univariate EDA distributions, summary stats
-24. Bivariate EDA correlation, groupwise comparison
-25. Matplotlib fundamentals multi-panel figures
-26. Seaborn categorical + distribution plots
-27. Storytelling with data EDA report on a real dataset
-28. Interactive viz with Plotly
-29. Dashboard prototype (Streamlit) for an EDA report
-30. Full EDA capstone pick a messy real dataset, deliver findings
+Stage 2 — Pandas & Data Wrangling (P9–P17)
 
-## Stage 4 — Statistics & Probability for ML (P31–P39)
-31. Descriptive stats deep dive meanvarianceskew, when they lie
-32. Probability distributions simulate & fit
-33. Central Limit Theorem — simulation project
-34. Hypothesis testing t-test, chi-square on real data
-35. Confidence intervals & bootstrapping
-36. Correlation vs causation case study
-37. Bayes' theorem applied project (spam-style classifier by hand)
-38. AB testing simulation
-39. Statistics capstone design + run a full hypothesis-testing study
+Series/DataFrame fundamentals on a real dataset
+Filtering, sorting, groupby on a sales dataset
+Merge/join across multiple tables
+Handling missing data — strategies compared
+Outlier detection & treatment
+Derived columns, apply/lambda, vectorized string ops
+Reshaping — pivot, melt, multi-index
+Time-indexed data basics (resampling, rolling windows)
+End-to-end wrangling project — raw messy dataset → analysis-ready (merged with p26)
 
-## Stage 5 — Preprocessing & Feature Engineering (P40–P48)
-40. Encoding categorical variables (one-hot, ordinal, target)
-41. Scaling & normalization — when each matters
-42. Feature selection filter, wrapper, embedded methods
-43. Handling imbalanced data
-44. Feature engineering on tabular data (domain-driven features)
-45. Building a reusable preprocessing pipeline (sklearn Pipeline)
-46. Data leakage case study — find and fix a leaky pipeline
-47. Trainvaltest split strategies, cross-validation setups
-48. Preprocessing capstone full pipeline on a messy dataset
 
-## Stage 6 — Classical ML Regression (P49–P56)
-49. Linear regression from scratch (gradient descent)
-50. Linear regression with sklearn — diagnostics & residuals
-51. Regularization Ridge, Lasso, ElasticNet compared
-52. Polynomial regression & overfitting demo
-53. Decision tree regressor — bias-variance visualized
-54. Regression project real-world pricevalue prediction
-55. Model diagnostics heteroscedasticity, multicollinearity
-56. Regression capstone end-to-end with reporting
+Stage 3 — EDA & Visualization (P18–P26)
 
-## Stage 7 — Classical ML Classification (P57–P65)
-57. Logistic regression from scratch
-58. Logistic regression with sklearn — decision boundaries
-59. KNN — distance metrics & curse of dimensionality
-60. Decision trees for classification — interpretability
-61. SVM — kernels intuition & tuning
-62. Naive Bayes — text classification project
-63. Multi-class classification project
-64. Classification project imbalanced real-world dataset
-65. Classification capstone full pipeline + error analysis
+Univariate EDA — distributions, summary stats
+Bivariate EDA — correlation, groupwise comparison
+Matplotlib fundamentals — multi-panel figures
+Seaborn categorical + distribution plots
+Storytelling with data — EDA report on a real dataset
+Interactive viz with Plotly
+Learn Streamlit Basics (widgets, layout, state, running an app locally)
+Dashboard prototype (Streamlit) for an EDA report
+Full EDA capstone — pick a messy real dataset, deliver findings
 
-## Stage 8 — Evaluation, Tuning, Pipelines (P66–P72)
-66. Evaluation metrics deep dive (precisionrecallF1ROCAUC) — when each lies
-67. Cross-validation strategies (k-fold, stratified, time-series split)
-68. Hyperparameter tuning grid search vs random search vs Bayesian
-69. Building a full sklearn Pipeline with ColumnTransformer
-70. Experiment tracking basics (MLflow or manual logging)
-71. Model comparison framework multiple models, one dataset
-72. Evaluation capstone rigorous model selection report
 
-## Stage 9 — Ensembles & Explainability (P73–P78)
-73. Bagging & Random Forests
-74. Boosting AdaBoost intuition
-75. Gradient Boosting from scratch (small scale)
-76. XGBoostLightGBM applied project
-77. Explainable AI SHAP & feature importance
-78. Ensemble capstone stacked model with explainability report
+Stage 4 — Statistics & Probability for ML (P27–P35)
 
-## Stage 10 — Unsupervised Learning (P79–P83)
-79. K-Means clustering — choosing k
-80. Hierarchical clustering & dendrograms
-81. DBSCAN — density-based clustering on messy data
-82. Dimensionality reduction PCA intuition + implementation
-83. Clustering capstone customerdata segmentation project
+Descriptive stats deep dive — mean/variance/skew, when they lie
+Probability distributions — simulate & fit
+Central Limit Theorem — simulation project
+Hypothesis testing — t-test, chi-square on real data
+Confidence intervals & bootstrapping
+Correlation vs causation case study
+Bayes' theorem applied project (spam-style classifier by hand)
+A/B testing simulation
+Statistics capstone — design + run a full hypothesis-testing study
 
-## Stage 11 — Time Series (P84–P89)
-84. Time series decomposition (trendseasonalityresidual)
-85. Stationarity & differencing
-86. ARIMA modeling project
-87. Feature-based time series forecasting (lag features + ML model)
-88. Prophet or seasonal ML model comparison
-89. Time series capstone real forecasting problem
 
-## Stage 12 — NLP (P90–P96)
-90. Text preprocessing tokenization, stopwords, stemminglemmatization
-91. Bag-of-Words & TF-IDF from scratch
-92. Text classification project (spamsentiment)
-93. Word embeddings intuition (Word2VecGloVe)
-94. Topic modeling (LDA) project
-95. Sentiment analysis on real-world messy text
-96. NLP capstone end-to-end text classification system
+Stage 5 — Preprocessing & Feature Engineering (P36–P44)
 
-## Stage 13 — Deep Learning Foundations (P97–P104)
-97. Neural network from scratch (single neuron, forward pass)
-98. Backpropagation by hand + implementation
-99. Building an MLP in PyTorchTensorFlow
-100. Activation functions & loss functions deep dive
-101. Regularization in deep learning dropout, batch norm
-102. Optimizers compared SGD, Adam, RMSprop
-103. Training loop debugging project (deliberately broken model)
-104. Deep learning capstone tabular deep learning vs classical ML
+Encoding categorical variables (one-hot, ordinal, target)
+Scaling & normalization — when each matters
+Feature selection — filter, wrapper, embedded methods
+Handling imbalanced data
+Feature engineering on tabular data (domain-driven features)
+Building a reusable preprocessing pipeline (sklearn Pipeline)
+Data leakage case study — find and fix a leaky pipeline
+Train/val/test split strategies, cross-validation setups
+Preprocessing capstone — full pipeline on a messy dataset
 
-## Stage 14 — Computer Vision (P105–P110)
-105. Image basics pixels, channels, preprocessing
-106. CNN from scratch (small scale) — convolution intuition
-107. CNN with PyTorchTensorFlow on real image dataset
-108. Transfer learning project
-109. Data augmentation & regularization for vision
-110. CV capstone image classification system
 
-## Stage 15 — Recommendation Systems (P111–P113)
-111. Collaborative filtering from scratch
-112. Content-based recommender project
-113. Hybrid recommender capstone
+Stage 6 — Classical ML Regression (P45–P52)
 
-## Stage 16 — MLOps, APIs, Deployment (P114–P122)
-114. Wrapping a model in a FastAPI service
-115. Dockerizing an ML API
-116. Streamlit app for model demo
-117. Database integration for predictionslogging
-118. Batch vs real-time inference design
-119. Model monitoring & drift detection basics
-120. CICD concepts for ML projects
-121. Cloud deployment (basic)
-122. MLOps capstone fully deployed monitored service
+Linear regression from scratch (gradient descent)
+Linear regression with sklearn — diagnostics & residuals
+Regularization — Ridge, Lasso, ElasticNet compared
+Polynomial regression & overfitting demo
+Decision tree regressor — bias-variance visualized
+Regression project — real-world price/value prediction
+Model diagnostics — heteroscedasticity, multicollinearity
+Regression capstone — end-to-end with reporting
 
-## Stage 17 — Production-Grade Capstones (P123–P128+)
-123. Multi-model comparison system with full reporting
-124. Scalable ML architecture design exercise
-125. Research paper reproduction (small scale)
-126. Full production ML system ingestion → training → serving → monitoring
-127. Debugging challenge broken production pipeline (deliberately sabotaged)
-128. Final capstone original end-to-end ML system of your choosing, defended like a technical interview
 
----
+Stage 7 — Classical ML Classification (P53–P61)
 
-Total 128 projects. Each project follows problem statement → dataset → concepts → step-by-step build → math intuition → EDApreprocessingmodelingevaluation as relevant → error analysis → industry discussion → extension challenge. No step advances without your submitted implementation.
-=======
-# DSML Mentorship Roadmap — Project-Based Track
+Logistic regression from scratch
+Logistic regression with sklearn — decision boundaries
+KNN — distance metrics & curse of dimensionality
+Decision trees for classification — interpretability
+SVM — kernels intuition & tuning
+Naive Bayes — text classification project
+Multi-class classification project
+Classification project — imbalanced real-world dataset
+Classification capstone — full pipeline + error analysis
 
-Status Replaces the old level-gated DSML curriculum. Project-by-project, strict gating, no full solutions dumped, no advancement without submitted work.
 
----
+Stage 8 — Evaluation, Tuning, Pipelines (P62–P68)
 
-## Stage 0 — Python & Engineering Discipline (P1–P6)
-1. Environment setup, venv, project structure, git init
-2. Clean function design + docstrings on a unit-conversion toolkit
-3. File IO readwrite CSV, JSON, handle malformed input
-4. Error handling & logging on a small CLI tool
-5. Writing your first unit tests (pytest)
-6. Refactor a messy script into modules (code smell audit)
+Evaluation metrics deep dive (precision/recall/F1/ROC-AUC) — when each lies
+Cross-validation strategies (k-fold, stratified, time-series split)
+Hyperparameter tuning — grid search vs random search vs Bayesian
+Building a full sklearn Pipeline with ColumnTransformer
+Experiment tracking basics (MLflow or manual logging)
+Model comparison framework — multiple models, one dataset
+Evaluation capstone — rigorous model selection report
 
-## Stage 1 — NumPy Foundations (P7–P13)
-7. Vectorization vs loops timing benchmark
-8. Array creation, indexing, broadcasting drills
-9. Linear algebra basics dot products, matrix ops on a physics dataset
-10. Random sampling & simulation dicecoin Monte Carlo
-11. Numerical differentiationintegration mini-tool
-12. Solving a linear system (np.linalg.solve) — engineering context
-13. NumPy performance project vectorize a slow simulation
 
-## Stage 2 — Pandas & Data Wrangling (P14–P22)
-14. SeriesDataFrame fundamentals on real dataset
-15. Filtering, sorting, groupby on a sales dataset
-16. Mergejoin across multiple tables
-17. Handling missing data — strategies compared
-18. Outlier detection & treatment
-19. Derived columns, applylambda, vectorized string ops
-20. Reshaping pivot, melt, multi-index
-21. Time-indexed data basics (resampling, rolling windows)
-22. End-to-end wrangling project raw messy dataset → analysis-ready
+Stage 9 — Ensembles & Explainability (P69–P74)
 
-## Stage 3 — EDA & Visualization (P23–P30)
-23. Univariate EDA distributions, summary stats
-24. Bivariate EDA correlation, groupwise comparison
-25. Matplotlib fundamentals multi-panel figures
-26. Seaborn categorical + distribution plots
-27. Storytelling with data EDA report on a real dataset
-28. Interactive viz with Plotly
-29. Dashboard prototype (Streamlit) for an EDA report
-30. Full EDA capstone pick a messy real dataset, deliver findings
+Bagging & Random Forests
+Boosting — AdaBoost intuition
+Gradient Boosting from scratch (small scale)
+XGBoost/LightGBM applied project
+Explainable AI — SHAP & feature importance
+Ensemble capstone — stacked model with explainability report
 
-## Stage 4 — Statistics & Probability for ML (P31–P39)
-31. Descriptive stats deep dive meanvarianceskew, when they lie
-32. Probability distributions simulate & fit
-33. Central Limit Theorem — simulation project
-34. Hypothesis testing t-test, chi-square on real data
-35. Confidence intervals & bootstrapping
-36. Correlation vs causation case study
-37. Bayes' theorem applied project (spam-style classifier by hand)
-38. AB testing simulation
-39. Statistics capstone design + run a full hypothesis-testing study
 
-## Stage 5 — Preprocessing & Feature Engineering (P40–P48)
-40. Encoding categorical variables (one-hot, ordinal, target)
-41. Scaling & normalization — when each matters
-42. Feature selection filter, wrapper, embedded methods
-43. Handling imbalanced data
-44. Feature engineering on tabular data (domain-driven features)
-45. Building a reusable preprocessing pipeline (sklearn Pipeline)
-46. Data leakage case study — find and fix a leaky pipeline
-47. Trainvaltest split strategies, cross-validation setups
-48. Preprocessing capstone full pipeline on a messy dataset
+Stage 10 — Unsupervised Learning (P75–P79)
 
-## Stage 6 — Classical ML Regression (P49–P56)
-49. Linear regression from scratch (gradient descent)
-50. Linear regression with sklearn — diagnostics & residuals
-51. Regularization Ridge, Lasso, ElasticNet compared
-52. Polynomial regression & overfitting demo
-53. Decision tree regressor — bias-variance visualized
-54. Regression project real-world pricevalue prediction
-55. Model diagnostics heteroscedasticity, multicollinearity
-56. Regression capstone end-to-end with reporting
+K-Means clustering — choosing k
+Hierarchical clustering & dendrograms
+DBSCAN — density-based clustering on messy data
+Dimensionality reduction — PCA intuition + implementation
+Clustering capstone — customer data segmentation project
 
-## Stage 7 — Classical ML Classification (P57–P65)
-57. Logistic regression from scratch
-58. Logistic regression with sklearn — decision boundaries
-59. KNN — distance metrics & curse of dimensionality
-60. Decision trees for classification — interpretability
-61. SVM — kernels intuition & tuning
-62. Naive Bayes — text classification project
-63. Multi-class classification project
-64. Classification project imbalanced real-world dataset
-65. Classification capstone full pipeline + error analysis
 
-## Stage 8 — Evaluation, Tuning, Pipelines (P66–P72)
-66. Evaluation metrics deep dive (precisionrecallF1ROCAUC) — when each lies
-67. Cross-validation strategies (k-fold, stratified, time-series split)
-68. Hyperparameter tuning grid search vs random search vs Bayesian
-69. Building a full sklearn Pipeline with ColumnTransformer
-70. Experiment tracking basics (MLflow or manual logging)
-71. Model comparison framework multiple models, one dataset
-72. Evaluation capstone rigorous model selection report
+Stage 11 — Time Series (P80–P85)
 
-## Stage 9 — Ensembles & Explainability (P73–P78)
-73. Bagging & Random Forests
-74. Boosting AdaBoost intuition
-75. Gradient Boosting from scratch (small scale)
-76. XGBoostLightGBM applied project
-77. Explainable AI SHAP & feature importance
-78. Ensemble capstone stacked model with explainability report
+Time series decomposition (trend/seasonality/residual)
+Stationarity & differencing
+ARIMA modeling project
+Feature-based time series forecasting (lag features + ML model)
+Prophet or seasonal ML model comparison
+Time series capstone — real forecasting problem
 
-## Stage 10 — Unsupervised Learning (P79–P83)
-79. K-Means clustering — choosing k
-80. Hierarchical clustering & dendrograms
-81. DBSCAN — density-based clustering on messy data
-82. Dimensionality reduction PCA intuition + implementation
-83. Clustering capstone customerdata segmentation project
 
-## Stage 11 — Time Series (P84–P89)
-84. Time series decomposition (trendseasonalityresidual)
-85. Stationarity & differencing
-86. ARIMA modeling project
-87. Feature-based time series forecasting (lag features + ML model)
-88. Prophet or seasonal ML model comparison
-89. Time series capstone real forecasting problem
+Stage 12 — NLP (P86–P92)
 
-## Stage 12 — NLP (P90–P96)
-90. Text preprocessing tokenization, stopwords, stemminglemmatization
-91. Bag-of-Words & TF-IDF from scratch
-92. Text classification project (spamsentiment)
-93. Word embeddings intuition (Word2VecGloVe)
-94. Topic modeling (LDA) project
-95. Sentiment analysis on real-world messy text
-96. NLP capstone end-to-end text classification system
+Text preprocessing — tokenization, stopwords, stemming/lemmatization
+Bag-of-Words & TF-IDF from scratch
+Text classification project (spam/sentiment)
+Word embeddings intuition (Word2Vec/GloVe)
+Topic modeling (LDA) project
+Sentiment analysis on real-world messy text
+NLP capstone — end-to-end text classification system
 
-## Stage 13 — Deep Learning Foundations (P97–P104)
-97. Neural network from scratch (single neuron, forward pass)
-98. Backpropagation by hand + implementation
-99. Building an MLP in PyTorchTensorFlow
-100. Activation functions & loss functions deep dive
-101. Regularization in deep learning dropout, batch norm
-102. Optimizers compared SGD, Adam, RMSprop
-103. Training loop debugging project (deliberately broken model)
-104. Deep learning capstone tabular deep learning vs classical ML
 
-## Stage 14 — Computer Vision (P105–P110)
-105. Image basics pixels, channels, preprocessing
-106. CNN from scratch (small scale) — convolution intuition
-107. CNN with PyTorchTensorFlow on real image dataset
-108. Transfer learning project
-109. Data augmentation & regularization for vision
-110. CV capstone image classification system
+Stage 13 — Deep Learning Foundations (P93–P100)
 
-## Stage 15 — Recommendation Systems (P111–P113)
-111. Collaborative filtering from scratch
-112. Content-based recommender project
-113. Hybrid recommender capstone
+Neural network from scratch (single neuron, forward pass)
+Backpropagation by hand + implementation
+Building an MLP in PyTorch/TensorFlow
+Activation functions & loss functions deep dive
+Regularization in deep learning — dropout, batch norm
+Optimizers compared — SGD, Adam, RMSprop
+Training loop debugging project (deliberately broken model)
+Deep learning capstone — tabular deep learning vs classical ML
 
-## Stage 16 — MLOps, APIs, Deployment (P114–P122)
-114. Wrapping a model in a FastAPI service
-115. Dockerizing an ML API
-116. Streamlit app for model demo
-117. Database integration for predictionslogging
-118. Batch vs real-time inference design
-119. Model monitoring & drift detection basics
-120. CICD concepts for ML projects
-121. Cloud deployment (basic)
-122. MLOps capstone fully deployed monitored service
 
-## Stage 17 — Production-Grade Capstones (P123–P128+)
-123. Multi-model comparison system with full reporting
-124. Scalable ML architecture design exercise
-125. Research paper reproduction (small scale)
-126. Full production ML system ingestion → training → serving → monitoring
-127. Debugging challenge broken production pipeline (deliberately sabotaged)
-128. Final capstone original end-to-end ML system of your choosing, defended like a technical interview
+Stage 14 — Computer Vision (P101–P106)
 
----
+Image basics — pixels, channels, preprocessing
+CNN from scratch (small scale) — convolution intuition
+CNN with PyTorch/TensorFlow on real image dataset
+Transfer learning project
+Data augmentation & regularization for vision
+CV capstone — image classification system
 
-Total 128 projects. Each project follows problem statement → dataset → concepts → step-by-step build → math intuition → EDApreprocessingmodelingevaluation as relevant → error analysis → industry discussion → extension challenge. No step advances without your submitted implementation.
+
+Stage 15 — Recommendation Systems (P107–P109)
+
+Collaborative filtering from scratch
+Content-based recommender project
+Hybrid recommender capstone
+
+
+Stage 16 — MLOps, APIs, Deployment (P110–P118)
+
+Wrapping a model in a FastAPI service
+Dockerizing an ML API
+Streamlit app for model demo
+Database integration for predictions/logging
+Batch vs real-time inference design
+Model monitoring & drift detection basics
+CI/CD concepts for ML projects
+Cloud deployment (basic)
+MLOps capstone — fully deployed, monitored service
+
+
+Stage 17 — Production-Grade Capstones (P119–P124)
+
+Multi-model comparison system with full reporting
+Scalable ML architecture design exercise
+Research paper reproduction (small scale)
+Full production ML system — ingestion → training → serving → monitoring
+Debugging challenge — broken production pipeline (deliberately sabotaged)
+Final capstone — original end-to-end ML system of your choosing, defended like a technical interview
