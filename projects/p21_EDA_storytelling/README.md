@@ -1,4 +1,4 @@
-# Zara Sales Dataset — Exploratory Data Analysis (Report Formatting (only) by AI)
+# Zara Sales Dataset — Exploratory Data Analysis
 
 **Dataset:** 20,252 records · 17 features
 **Tools:** Python (pandas, seaborn, matplotlib)
