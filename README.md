@@ -66,7 +66,7 @@ projects/
 | 18 | [Bivariate EDA](projects/p18_bivariate_eda) | Correlation analysis, groupwise comparison across variable pairs |
 | 19 | [Matplotlib Fundamentals](projects/p19_matplotlib_fundamentals) | Multi-panel figures, subplot layouts, core plotting API |
 | 20 | [Seaborn Categorical & Distribution Plots](projects/p20_seaborn_categorical_distribution) | Categorical plot types, distribution visualization, styling conventions |
-| 21 | [Storytelling with Data](projects/p21_storytelling_with_data) | Full EDA report on a real dataset, from cleaning to narrative findings (Olympic history dataset) |
+| 21 | [Storytelling with Data](projects/p21_storytelling_with_data) | Full EDA report on a real dataset, from cleaning to narrative findings (ZARA Sales) |
 | 22 | [Interactive Viz with Plotly](projects/p22_plotly_interactive_viz) | Interactive plotting, hover/zoom interactions, Plotly Express vs Graph Objects |
 
 *(Table updated as new projects are completed.)*
